@@ -1,31 +1,5 @@
 # kubernetes1
 
-aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 654654231724.dkr.ecr.ap-south-1.amazonaws.com
-
-access key  :  AKIAZQ3DO2SWJQZBIUNN
-secret key : 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
-aws act id : 654654231724
-
-docker tag my-flask-app:latest 654654231724.dkr.ecr.ap-south-1.amazonaws.com/my_monitoring_app_image:latest
-
-
-docker push 654654231724.dkr.ecr.ap-south-1.amazonaws.com/my_monitoring_app_image:latest
-
-TASKS:
-go through AWS docs
-
-deploy this project on locally after that try on EKS
-
-get info about pulumi 
-helmchart
-
-go through networking conecpts
-
-
-  mkdir -p $HOME/.kube
-  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-  sudo chown $(id -u):$(id -g) $HOME/.kube/config
-
 *K3S*
 installed K3S from official documentation. 
   command used - curl -sfL https://get.k3s.io | sh -

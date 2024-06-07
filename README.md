@@ -1,4 +1,4 @@
-# kubernetes1
+# kubernetes Demo Project
 
 ### **Run the application**
 ## **For Dockerizing the Flask application**

@@ -1,5 +1,4 @@
-# kubernetes Demo Project
-# System Monitoring App
+# System Monitoring App (kubernetes Demo Project)  
 
 ### **Run the application**
 ## **For Dockerizing the Flask application**
